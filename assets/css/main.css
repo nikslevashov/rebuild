@@ -1,0 +1,56 @@
+/* Wrapper */
+/* the container */
+/*holds the tabs at the top*/
+/*holds the logo and image*/
+/*defines the colours for the tabs, with corner background images*/
+.all {
+  text-align: center;
+  width: 100%;
+}
+.box {
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  text-align: left;
+  width: 90%;
+}
+.menu {
+  background-color: #ffffff;
+  text-align: right;
+  border-bottom: 1px solid #FFFFFF;
+}
+.menu a:link {
+  background: #edeeea url(images/corner.gif) no-repeat right top;
+  color: #3d3535;
+  text-decoration: none;
+  padding: 3px 7px 3px 7px;
+  margin: 0 0 0 4px;
+}
+.menu a:active {
+  background: #edeeea url(images/corner.gif) no-repeat right top;
+  color: #3d3535;
+  text-decoration: none;
+  padding: 3px 7px 3px 7px;
+  margin: 0 0 0 4px;
+}
+.menu a:visited {
+  background: #edeeea url(images/corner.gif) no-repeat right top;
+  color: #3d3535;
+  text-decoration: none;
+  padding: 3px 7px 3px 7px;
+  margin: 0 0 0 4px;
+}
+.menu a:hover {
+  background: #d6d8cf url(images/corner2.gif) no-repeat right top;
+  color: #000000;
+  text-decoration: none;
+  padding: 3px 7px 3px 7px;
+  margin: 0 0 0 4px;
+}
+.header {
+  background-color: #edeeea;
+  padding: 10px;
+  margin-top: 3px;
+  height: 130px;
+}
